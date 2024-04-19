@@ -9,7 +9,7 @@ export default async function HomePage() {
   });
   return (
     <main className="">
-      <div className="flex flex-wrap gap-5">
+      <div className="flex flex-wrap gap-5 justify-center items-center ">
         {[...images, ...images, ...images].map((image, i) => (
           <div
             key={image.id + " " + i}
